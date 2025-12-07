@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="porto.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/feather-icons" />
+    <title>Fi's Portofolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="navbar">
+        <div class="logo">
+          <span>Fikah</span>
+        </div>
+        <div class="link">
+          <div class="link"><a href="#home">Home</a></div>
+          <div class="link"><a href="#about-me">About Me</a></div>
+          <div class="link"><a href="#skills">Skills</a></div>
+          <div class="link"><a href="#projects">Project</a></div>
+          <div class="link"><a href="#contact">Contact</a></div>
+        </div>
+        <div class="socialmedia">
+          <a href="https://github.com/who0ppies"><i data-feather="github"></i></a>
+          <a href="https://instagram.com/louffisy"><i data-feather="instagram"></i></a>
+          <a href="https://twitter.com/fsyaaas"><i data-feather="twitter"></i></a>
+        </div>
+      </div>
+    </nav>
+
+    <section class="home" id="home">
+      <div class="home">
+        <h1>
+          Fikah <br />
+          Portofolio Website
+        </h1>
+        <p>UI/UX Designer</p>
+      </div>
+      <a href="#" class="btn">START</a>
+    </section>
+
+    <section class="about-me" id="about-me">
+      <h1 class="heading">About <span>Me</span></h1>
+
+      <div class="about-wrapper">
+        <!-- fotoo -->
+        <div class="about-img">
+          <img src="/pict/fotooo.jpg" alt="foto" />
+        </div>
+        <!-- text -->
+        <div class="about-text">
+          <h2>Hi!</h2>
+          <p>
+            My name is Fadiyah Syafiqah, but you can call me Fikah. I’m a
+            student from SMK Taruna Bhakti, and I aspire to be a UI/UX Designer.
+            I’m deeply passionate about creativity, details, and how design can
+            shape people’s experiences. For me, UI/UX is more than just visuals
+            — it’s about understanding emotions, solving problems, and creating
+            something meaningful. I want to design digital spaces that are not
+            only functional but also calm, elegant, and full of character.
+          </p>
+          <a href="#" class="cv-btn">Download CV</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <h1 class="heading">My <span>Skills</span></h1>
+      <!-- ini logo skills -->
+      <div class="skills-container">
+        <div class="skill-card">
+          <img src="/pict/typescript.png" alt="TS" />
+        </div>
+
+        <div class="skill-card">
+          <img src="/pict/js.png" alt="JS" />
+        </div>
+
+        <div class="skill-card">
+          <img src="/pict/html-5.png" alt="HTML" />
+        </div>
+
+        <div class="skill-card">
+          <img src="/pict/python.png" alt="PYTHON" />
+        </div>
+
+        <div class="skill-card">
+          <img src="/pict/web.png" alt="PHP" />
+        </div>
+
+        <div class="skill-card">
+          <img src="/pict/figma.png" alt="FIGMA" />
+        </div>
+
+        <div class="skill-card">
+          <img src="/pict/image.png" alt="CANVA" />
+        </div>
+
+        <div class="skill-card">
+          <img src="/pict/illustrator.png" alt="AI" />
+        </div>
+      </div>
+    </section>
+
+    <section class="my-projects" id="projects">
+      <h1 class="heading">My <span>Projects</span></h1>
+
+      <!-- Project 1 -->
+      <div class="project-box">
+        <img src="pict/berita.png" class="project-img" alt="Project 1" />
+
+        <div class="project-text">
+          <h2>Project 1</h2>
+          <p>
+            This project is a styled news page created to display information
+            about the drama "Twenty Five Twenty One." I focused on creating a
+            clean visual hierarchy by arranging the poster, cast list, genre,
+            and synopsis in an easy-to-read structure. This project helped me
+            enhance my understanding of layout design, spacing, and
+            user-friendly content presentation.
+          </p>
+          <a href="berita.html" class="view-btn">View Project</a>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-box">
+        <img src="pict/loogginn.png" class="project-img" alt="Project 2" />
+
+        <div class="project-text">
+          <h2>Project 2</h2>
+          <p>
+            This project is a basic login form built using HTML. It includes
+            input fields for username and password, as well as a submit button.
+            While simple, this project helped me understand how form elements
+            work, including form, label, and  input.
+          </p>
+          <a href="login.html" class="view-btn">View Project</a>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-box">
+        <img src="pict/kodemapel.png" class="project-img" alt="Project 3" />
+
+        <div class="project-text">
+          <h2>Project 3</h2>
+          <p>
+            This project is a simple web page that displays a class schedule
+            using an HTML table. I created this project to understand how table
+            elements such as table, tr, th, and td work together to
+            organize data clearly.
+          </p>
+          <a href="jadwal.html" class="view-btn">View Project</a>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <form action="https://formspree.io/f/xgvjdqla" method="POST">
+        <label>
+          Your name:
+          <input type="text" name="name" />
+        </label>
+        <label>
+          Your email:
+          <input type="email" name="email" />
+        </label>
+        <label>
+          Your message:
+          <textarea name="message"></textarea>
+        </label>
+        <!-- your other form fields go here -->
+        <button type="submit">Send</button>
+      </form>
+    </section>
+    <footer class="footer">
+      <h3>Let’s Connect!</h3>
+
+      <div class="footer-social">
+        <a href="https://instagram.com/louffisy"
+          ><i data-feather="instagram"></i
+        ></a>
+        <a href="https://twitter.com/fsyaaas"><i data-feather="twitter"></i></a>
+        <a href="https://github.com/who0ppies"
+          ><i data-feather="github"></i
+        ></a>
+      </div>
+      <p>© 2025 Your Name — All Rights Reserved.</p>
+    </footer>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>

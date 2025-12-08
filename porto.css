@@ -3,7 +3,7 @@
   font-weight: 400;
   font-style: normal;
 }
-
+/* navbar */
 .navbar {
   position: fixed;
   top: 0;
@@ -17,11 +17,11 @@
   z-index: 1000;
   border-radius: 20px;
 }
-
+/* body */
 body {
   background-color: #fbf4eb;
 }
-
+/* logo */
 .logo {
   display: flex;
   align-items: center;
@@ -61,25 +61,10 @@ body {
   width: 100%;
 }
 
-.contact-button {
-  background-color: transparent;
-  padding: 5px 20px;
-  border-radius: 20px;
-  border: 2px solid #fbd9e5;
-}
-
-.contact-button a {
-  color: black;
-}
-
-.contact-button:hover {
-  background-color: #ffcbbf;
-}
-
 .link a:hover {
   color: #fef7c5;
 }
-
+/* home */
 .home {
   padding: 120px 8%;
   text-align: center;
@@ -110,7 +95,7 @@ body {
 .home .btn:hover {
   background: #ff0086;
 }
-
+/* about me */
 .about-me {
   margin-top: 40px;
   text-align: center;
@@ -132,7 +117,7 @@ body {
   gap: 40px;
 }
 
-/* FOTO */
+/* foto */
 .about-img img {
   width: 200px;
   height: 260px;
@@ -142,7 +127,7 @@ body {
   position: relative;
 }
 
-/* BOX TEKS */
+/* box text */
 .about-text {
   background: #fbd9e5;
   border: 2px solid #fbd9e5;
@@ -157,7 +142,7 @@ body {
   justify-content: center;
 }
 
-/* BUTTON */
+/* button */
 .cv-btn {
   display: inline-block;
   padding: 10px 22px;
@@ -171,7 +156,7 @@ body {
 .cv-btn:hover {
   background-color: #ff0086;
 }
-
+/* skills */
 .skills {
   text-align: center;
   width: 100%;
@@ -428,7 +413,7 @@ form button:hover {
   transform: scale(1.15);
 }
 
-.footer-aesthetic p {
+.footer p {
   font-size: 14px;
   opacity: 0.7;
 }

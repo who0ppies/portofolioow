@@ -1,3 +1,7 @@
+body {
+  background-color: #fbf4eb;
+}
+
 * {
   font-family: "Italianno", cursive;
   font-weight: 400;
@@ -17,10 +21,7 @@
   z-index: 1000;
   border-radius: 20px;
 }
-/* body */
-body {
-  background-color: #fbf4eb;
-}
+
 /* logo */
 .logo {
   display: flex;
@@ -64,6 +65,7 @@ body {
 .link a:hover {
   color: #fef7c5;
 }
+
 /* home */
 .home {
   padding: 120px 8%;

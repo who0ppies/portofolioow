@@ -248,6 +248,7 @@ body {
   font-weight: 600;
   border-radius: 12px;
   transition: 0.3s;
+  margin-top: 5px;
 }
 
 .view-btn:hover {
@@ -355,6 +356,7 @@ form button {
   cursor: pointer;
   transition: 0.3s;
   font-weight: 600;
+  margin-top: 20px;
 }
 
 form button:hover {

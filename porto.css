@@ -193,11 +193,6 @@ body {
   box-shadow: 0 10px 16px #ff329f;
 }
 
-.skill-card:active {
-  transform: translateY(-6px) scale(1.05);
-  box-shadow: 0 10px 16px #ff329f;
-}
-
 .my-projects {
   padding: 70px 10%;
 }
